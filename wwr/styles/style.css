@@ -1,0 +1,111 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+#hero-message h1,
+#hero-message h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #9EB7E598;
+}
+
+header {
+    background-color: #c5b046;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.book,
+.join {
+    background-color: #c5b046;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #1040a798;
+    color: white;
+}
+
+#background {
+    background-color: #648DE5;
+}
+
+.msg {
+    background-color: #CDC392;
+}
+
+footer {
+    background-color: #c5b046;
+    color: black;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.msg h2 {
+    color: blue;
+}
+
+.msg p {
+    color: black;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
