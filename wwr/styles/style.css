@@ -231,6 +231,71 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* FAQs Page CSS Styles */
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+    margin-top: 110px;
+    border: 10px salmon;
+
+}
+
+.faq-card1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    
+}
+
+.faq-card2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+.faq-card3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+.faq-card4 {
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+.faq-card5 {
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+.faq-card6 {
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+.faq-grid p {
+    font-size: 1em;
+    
+}
+
+h3 {
+    color: #c5b046;
+    background-color: aliceblue;
+    border-radius: 15%;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
