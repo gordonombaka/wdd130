@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .msh h2 {
-    font-family: 'Roboto Slab', 'Times New Roman', serif; 
+    font-family: 'Roboto Slab', 'Times New Roman', serif;
 }
 
 body {
@@ -103,12 +103,13 @@ main section img {
     grid-template-columns: repeat(8, 1fr);
 }
 
-.icon, .whyus {
+.icon,
+.whyus {
     width: 100%;
 }
 
 .icon {
-    border-radius: 50% 10px solid #272521 ;
+    border-radius: 50% 10px solid #272521;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -137,8 +138,8 @@ main section img {
 .waste-card {
     grid-column: 6/8;
     grid-row: 2/3;
-    margin-top: 20px;  
-    padding: 50px; 
+    margin-top: 20px;
+    padding: 50px;
     align-self: center;
 }
 
@@ -168,7 +169,7 @@ main section img {
 footer {
     background-color: #a25bc9;
     padding: 25px 50px;
-    margin-top: 200px; 
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -197,45 +198,58 @@ footer img {
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+
+    #hero,
+    .home-grid {
         display: block;
         height: auto;
     }
-    nav, footer {
+
+    nav,
+    footer {
         flex-direction: column;
     }
+
     nav a {
         display: block;
         padding: 15px;
     }
+
     #hero {
         margin-top: 0;
     }
+
     #hero-msg {
         margin-top: 0;
     }
+
     #hero-msg h4 {
         display: none;
     }
-    
+
     .home-title {
         font-size: 25px;
     }
-    .cleaning-card, .landscaping-card, .waste-card { 
+
+    .cleaning-card,
+    .landscaping-card,
+    .waste-card {
         margin: 50px auto;
         width: 60%;
     }
+
     #background {
         display: none;
     }
-    .whyus, .msg {
+
+    .whyus,
+    .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
     }
+
     footer {
         margin-top: 25px;
     }
 }
-
-
