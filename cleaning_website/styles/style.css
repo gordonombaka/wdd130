@@ -338,6 +338,93 @@ footer img {
     margin: 10px;
 }
 
+/* Services Page CSS */
+
+#services {
+    text-align: center;
+    padding: 5px;
+}
+
+.serviceshome-grid {
+    display: grid;
+    grid-template-columns: 550px auto;
+    gap: 40px;
+}
+
+
+.cleaning {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    padding: 5px;
+}
+
+.cleaning-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.cleaning h2 {
+    text-align: center;
+    color: #c4078b;
+}
+
+.landscaping {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 5px;
+    margin-left: 10px;
+   
+}
+
+.landscaping-image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.landscaping h2 {
+    color: #c4078b;
+    text-align: center;
+}
+
+.waste {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: left;  
+    padding: 5px;
+}
+
+.waste h2 {
+    color: #c4078b;
+    text-align: center;
+}
+
+.waste-image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.waste div {
+    margin-top: 75px;
+}
+
+
+/* Contact Us Page CSS code */
+
+
+
+
+
 @media screen and (max-width: 900px) {
 
     #hero,
